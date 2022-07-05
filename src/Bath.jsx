@@ -3,7 +3,7 @@ import React from "react";
 const Bath = (props) => {
   return (
     <>
-    <div id="Bath">
+    <div className="Bath" id={`Bath-${props.size}`}>
       {props.size} Bath
 
     </div>

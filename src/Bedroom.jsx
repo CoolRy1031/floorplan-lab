@@ -3,10 +3,9 @@ import React from "react";
 const Bedroom = (props) => {
   return (
     <>
-    <div id="bedroom">
+    <div className="bedroom" id={`bed-${props.bedNum}`}>
       Bedroom {props.bedNum}
     </div>
-    
     </>
   )
 }
